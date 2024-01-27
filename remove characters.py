@@ -11,3 +11,4 @@ def remove_characters(word, number_of_characters):
     result = word[number_of_characters:]
     return result
 
+print(remove_characters(word, number_of_characters))
