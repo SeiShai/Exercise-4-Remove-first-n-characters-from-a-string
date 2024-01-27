@@ -3,3 +3,11 @@
 
 # Ask for input
 word = str(input('Enter a word: '))
+number_of_characters = int(input('Enter a number: '))
+
+# function
+def remove_characters(word, number_of_characters):
+    print('Chosen word: ', word)
+    result = word[number_of_characters:]
+    return result
+
